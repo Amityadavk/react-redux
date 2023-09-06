@@ -8,7 +8,7 @@ const Todo = () => {
   const [state, setState] = useState("")
 
   const dispatch = useDispatch()
-
+console.log("dfegfegfgergrg")
   const sendDataToStore = () => {
     // myStore.dispatch({
     //   type: "todo",
